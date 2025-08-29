@@ -10,11 +10,11 @@ block content
         if post.image
           div.imagePost
             a
-              img(src=(post.image) alt= (post.altImage))
+              img(src!=url_for(post.image) alt=(post.altImage))
         else
           div.imagePost
             a
-              img(src=(theme.image_post_default) alt= (post.altImage))
+              img(src!=url_for(theme.image_post_default) alt=(post.altImage))
 
         a(href=url_for(post.path)).title= post.title || 'Sin Nombre'
         span.date

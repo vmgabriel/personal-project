@@ -44,9 +44,9 @@ show_count: false
 disqus_shortname: vmgabriel
 
 # Miscellaneous
-favicon: /images/icon.png
-image_post_default: /images/default-post.png
-avatar: "/images/avatar.png"
+favicon: images/icon.png
+image_post_default: images/default-post.png
+avatar: "images/avatar.png"
 
 google_analytics: "UA-61220413-1"
 gauges_analytics:

@@ -24,7 +24,7 @@ mixin post(post, index)
           = post.title
 
         if post.img
-          a.post__image(href = url_for(post.path)): img(src = url_for(post.img), alt = 'featured-image')
+          a.post__image(href = url_for(post.path)): img(src!=url_for(post.img), alt = 'featured-image')
 
         div.post__main.echo
           != post.content
