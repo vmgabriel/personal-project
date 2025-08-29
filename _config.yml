@@ -13,8 +13,8 @@ timezone: "America/Bogota"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://vmgabriel.com/
-root: ""
+url: https://vmgabriel.github.io
+root: /personal-project/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
