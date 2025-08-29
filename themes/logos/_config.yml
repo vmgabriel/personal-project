@@ -12,6 +12,9 @@ excerpt_link: Leer Mas
 fancybox: true
 date_format: "DD/MM/YYYY"
 
+url: https://vmgabriel.github.io
+root: /personal-project/
+
 socials:
   github: "https://github.com/vmgabriel"
   email: "vmgabriel96@gmail.com"
