@@ -9,7 +9,7 @@ html
 
     title=config.title
     if theme.favicon
-      link(rel="shortcut icon", href=theme.favicon, type="image/x-icon")
+      link(rel="shortcut icon", href!=url_for(theme.favicon), type="image/x-icon")
     != css("css/all.min.css")
     != css("css/hightlight.css")
     != css("css/loading-bar.css")

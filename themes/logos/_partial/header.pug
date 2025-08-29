@@ -2,7 +2,7 @@ header#header
   .logo
     .content-logo#contentLogo
       img(alt='logo' src!=url_for(theme.avatar))
-      a.texto(href="/")= config.title
+      a.texto(href!=url_for("/"))= config.title
   .links#links
       ul
         li
@@ -23,7 +23,7 @@ div.nav-icon#navIcons
   i.menu.fas.fa-bars#menuNav(onClick="menuNav()")
 
 div.presentation#presentation
-  a.background-img(href="/")
+  a.background-img(href!=url_for("/"))
     img(alt='Imagen Logo' src!=url_for(theme.avatar))
   p Gabriel Vargas Monroy
   div.contacts#contacts

@@ -10,7 +10,7 @@ block content
           -last = year
           .year-wrap
             .year
-              a.title(href=url_for(config.archive_dir + '/' + year))= year
+              a.title(href!=url_for(config.archive_dir + '/' + year))= year
           .archives
             each post in page.posts.data
               -var innerYear = post.date.year()
@@ -20,6 +20,6 @@ block content
                   .post-archive__content
                     .post-archive__month= time(post.date, 'MMMM')
                   .post-archive__body
-                    a.post-archive__title(href=url_for(post.path))= post.title
+                    a.post-archive__title(href!=url_for(post.path))= post.title
                     .post-archive__excerpt
                       .post-archive__excerpt-content!= post.description

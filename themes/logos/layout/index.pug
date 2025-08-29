@@ -16,7 +16,7 @@ block content
             a
               img(src!=url_for(theme.image_post_default) alt=(post.altImage))
 
-        a(href=url_for(post.path)).title= post.title || 'Sin Nombre'
+        a(href!=url_for(post.path)).title= post.title || 'Sin Nombre'
         span.date
             p.date #{moment(post.date).format(theme.date_format)}
 
@@ -31,5 +31,5 @@ block content
 
 
         div.article-footer
-          a.excerpt-link(href=url_for(post.path))= theme.excerpt_link
+          a.excerpt-link(href!=url_for(post.path))= theme.excerpt_link
           .article-footer__right
