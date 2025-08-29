@@ -3,11 +3,11 @@
   <title>Logos de Gabriel</title>
   
   <subtitle>Camino al Conocimiento</subtitle>
-  <link href="https://vmgabriel.github.io/atom.xml" rel="self"/>
+  <link href="https://vmgabriel.com/atom.xml" rel="self"/>
   
-  <link href="https://vmgabriel.github.io/"/>
+  <link href="https://vmgabriel.com/"/>
   <updated>2024-04-08T19:00:00.000Z</updated>
-  <id>https://vmgabriel.github.io/</id>
+  <id>https://vmgabriel.com/</id>
   
   <author>
     <name>Gabriel Vargas Monroy</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Python Funcional 2 - El Compositor de Funciones</title>
-    <link href="https://vmgabriel.github.io/2024/04/08/python-composer/"/>
-    <id>https://vmgabriel.github.io/2024/04/08/python-composer/</id>
+    <link href="https://vmgabriel.com/2024/04/08/python-composer/"/>
+    <id>https://vmgabriel.com/2024/04/08/python-composer/</id>
     <published>2024-04-08T19:00:00.000Z</published>
     <updated>2024-04-08T19:00:00.000Z</updated>
     
@@ -29,26 +29,26 @@
     <summary type="html">La programacion funcional aprovecha varias situaciones que a lo largo del paradigma nos encontramos de manera frecuente, una de ellas es la situacion en la que tenemos varias funciones y usaramos estas para generar una secuencia de funciones para crear una nueva funcion.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/post/python-functional.png" type="image"/>
+    <content src="https://vmgabriel.com/images/post/python-functional.png" type="image"/>
     
     
-    <category term="python" scheme="https://vmgabriel.github.io/categories/python/"/>
+    <category term="python" scheme="https://vmgabriel.com/categories/python/"/>
     
-    <category term="funcional" scheme="https://vmgabriel.github.io/categories/python/funcional/"/>
+    <category term="funcional" scheme="https://vmgabriel.com/categories/python/funcional/"/>
     
     
-    <category term="python" scheme="https://vmgabriel.github.io/tags/python/"/>
+    <category term="python" scheme="https://vmgabriel.com/tags/python/"/>
     
-    <category term="patrones" scheme="https://vmgabriel.github.io/tags/patrones/"/>
+    <category term="patrones" scheme="https://vmgabriel.com/tags/patrones/"/>
     
-    <category term="funcional" scheme="https://vmgabriel.github.io/tags/funcional/"/>
+    <category term="funcional" scheme="https://vmgabriel.com/tags/funcional/"/>
     
   </entry>
   
   <entry>
     <title>Python Funcional</title>
-    <link href="https://vmgabriel.github.io/2021/10/25/python-functional1/"/>
-    <id>https://vmgabriel.github.io/2021/10/25/python-functional1/</id>
+    <link href="https://vmgabriel.com/2021/10/25/python-functional1/"/>
+    <id>https://vmgabriel.com/2021/10/25/python-functional1/</id>
     <published>2021-10-25T12:00:00.000Z</published>
     <updated>2021-10-25T12:00:00.000Z</updated>
     
@@ -58,61 +58,61 @@
     <summary type="html">El paradigma funcional explica formas de atacar un problema en la programacion con un enfasis dirigido a la inmutabilidad, el facil testeo, entre otras.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/post/python-functional.png" type="image"/>
+    <content src="https://vmgabriel.com/images/post/python-functional.png" type="image"/>
     
     
-    <category term="python" scheme="https://vmgabriel.github.io/categories/python/"/>
+    <category term="python" scheme="https://vmgabriel.com/categories/python/"/>
     
-    <category term="funcional" scheme="https://vmgabriel.github.io/categories/python/funcional/"/>
+    <category term="funcional" scheme="https://vmgabriel.com/categories/python/funcional/"/>
     
     
-    <category term="python" scheme="https://vmgabriel.github.io/tags/python/"/>
+    <category term="python" scheme="https://vmgabriel.com/tags/python/"/>
     
-    <category term="funcional" scheme="https://vmgabriel.github.io/tags/funcional/"/>
+    <category term="funcional" scheme="https://vmgabriel.com/tags/funcional/"/>
     
-    <category term="POO" scheme="https://vmgabriel.github.io/tags/POO/"/>
+    <category term="POO" scheme="https://vmgabriel.com/tags/POO/"/>
     
-    <category term="contextos" scheme="https://vmgabriel.github.io/tags/contextos/"/>
+    <category term="contextos" scheme="https://vmgabriel.com/tags/contextos/"/>
     
   </entry>
   
   <entry>
     <title>Seguridad en Aplicaciones Web Modernas</title>
-    <link href="https://vmgabriel.github.io/2020/05/28/seguridad-en-aplicaciones-web-modernas/"/>
-    <id>https://vmgabriel.github.io/2020/05/28/seguridad-en-aplicaciones-web-modernas/</id>
+    <link href="https://vmgabriel.com/2020/05/28/seguridad-en-aplicaciones-web-modernas/"/>
+    <id>https://vmgabriel.com/2020/05/28/seguridad-en-aplicaciones-web-modernas/</id>
     <published>2020-05-28T00:02:10.000Z</published>
     <updated>2020-05-28T00:02:10.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Seguridad-en-Apliaciones-Web-Moderna"><a href="#Seguridad-en-Apliaciones-Web-Moderna" class="headerlink" title="Seguridad en Apliaciones Web Moderna"></a>Seguridad en Apliaciones Web Moderna</h1><p>Uno de los mayores problemas que se enfrenta el desarrollador web durante el dia a dia es el uso de aplicaciones modernas y escalables es la seguridad en la web y es que para nadie es un secreto que los problemas que en general este enfrenta es variado.</p><p>Debido a ello es necesario explicar claramente como podemos enfrentar con todo lo que nos ofrece las arquitecturas modernas y las librerias para adaptarnos a las herramientas, siendo mas comenzemos.</p><h2 id="JWT-JSON-Web-Token"><a href="#JWT-JSON-Web-Token" class="headerlink" title="JWT - JSON Web Token"></a>JWT - JSON Web Token</h2><p>Una de las herramientas modernas que nos ofrecen hoy en dia para la autenticacion entre micro-servicios, y es que JWT es una herramienta imprescidible cuando lo que queremos es consumir de un stack de micro-servicios.</p><h3 id="Que-es-JWT"><a href="#Que-es-JWT" class="headerlink" title="Que es JWT?"></a>Que es JWT?</h3><p>Es una herramienta moderna para que podamos insertar algunos datos para que cuando tu te comunicas con um micro-servicios muestres tu JWT, es como un pasaporte de acceso que alguien porque te identificaste correctemante. Te dan este acceso cuando te autenticas, caso cuando por lo general ingresas usuario y contraseña, este en general te devuelve un jwt, los progamadores modernos los programadores lo guardan en cada uno de los navegadores de cada uno de los usuarios que ingresaron nuestra app, es por ello que cuando usamos esta podemos usarlo con nuestro y no el de otra persona, este JWT generalemente tiene lo siguiente dentro</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">JWTDeencripted</span> = &#123;</span><br><span class="line">  <span class="attr">exp</span>: <span class="number">123456</span>, </span><br><span class="line">  <span class="comment">// Una Fecha de Expiracion donde el usuario</span></span><br><span class="line">  <span class="comment">// debera pedir un nuevo pasaporte para disfrutar el servio</span></span><br><span class="line">  <span class="attr">userId</span>: <span class="string">&quot;xxxxxxxxxxxxxxxxxxxxxxxx&quot;</span>, <span class="comment">// Id de Usuario que lo identifica en el sistema</span></span><br><span class="line">  <span class="attr">permission</span>: [<span class="string">&quot;perm1-create&quot;</span>, <span class="string">&quot;perm2-update&quot;</span>, <span class="string">&quot;perm3-delete&quot;</span>],</span><br><span class="line">  <span class="comment">// Permisos de acceso del usuario(depende de como se haga la estrategia de autorizacion)</span></span><br><span class="line">  <span class="attr">roleId</span>: <span class="string">&quot;zzzzzzzzzzzzzzzz&quot;</span>, <span class="comment">// Id del rol, por si algun sevicio lo requiera</span></span><br><span class="line">  ... <span class="comment">// En general son estos datos, pero es posible ingresar mas como por ejemplo IP</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>Con este pasaporte el usuario puede crear, editar o eliminar si tiene autorizacion para hacerlo.<br>Para que sea seguro se encripta con una constraseña privada dejando como resultado algo similar a:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="variable constant_">JWT</span> = <span class="string">&#x27;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c&#x27;</span>;</span><br></pre></td></tr></table></figure><p>Podemos reconocer facilmente si es un JWT sabiendo que va a tener tres partes separadas por un punto.<br>Con esto lo unico que debemos hacer es verificar previamente cuando hacemos algun proceso si posee acesso o no, generalmente el acesso moderno se pone en una cookie segura que tenga HTTP-ONLY activado.</p><h3 id="Porque-En-Una-Cookie"><a href="#Porque-En-Una-Cookie" class="headerlink" title="Porque En Una Cookie?"></a>Porque En Una Cookie?</h3><p>Principalmente porque es horizontal para la aplicacion, sin embargo tambien tiene una ventaja adicional, se puede encriptar por segunda vez, entonces con ello tenemos una doble seguridad.</p><h3 id="Que-Diferencias-hay-entre-autorizar-y-autenticar"><a href="#Que-Diferencias-hay-entre-autorizar-y-autenticar" class="headerlink" title="Que Diferencias hay entre autorizar y autenticar?"></a>Que Diferencias hay entre autorizar y autenticar?</h3><p>Es simple, esto es debido a que cuando tu unicamente autenticasle das acceso total a todo lo que tiene tu aplicacion, pero, esto no es correcto, no quieres darle acceso de modificar el comportamiento de la aplicacion a un usuario comun, es debido a esto que cuadndo un usuario lanza una peticion HTTP a tus servicios el paso posterior es verificar si tiene permisos para realizar dicha accion. Es por esto que las estrategias de autorizacion varian entre aplicaciones y el de autenticacion es estandar.</p><img src="/images/post/auth/search.png" alt="Verificacion de Acceso por Key" style="width:200px;"/><h3 id="Hay-Ademas-Otras-Estrategias-para-Autenticar"><a href="#Hay-Ademas-Otras-Estrategias-para-Autenticar" class="headerlink" title="Hay Ademas Otras Estrategias para Autenticar?"></a>Hay Ademas Otras Estrategias para Autenticar?</h3><p>Para autenticar puedes usar las herramientas que da AuthV2 para conectarte con google, twitter, facebook, gitlab, entre muchas otras opciones.</p><h3 id="Que-es-AuthV2"><a href="#Que-es-AuthV2" class="headerlink" title="Que es AuthV2?"></a>Que es AuthV2?</h3><p><img src="/personal-project/images/post/auth/authentication.png" alt="Acceso Por Usuario y Contraseña" title="Ingreso Por Usuario y Contraseña"></p><p>Es una estrategia de la que esperas que una aplicacion de terceros te de el acceso, nosotros normalmente vemos eso en aplicaciones que dice “Ingresa con Google o Amazon o …” tu ingresas con tu usuario y contraseña de la plataforma web de tu gusto y cuando le das permiso de acceso esta manda un token correspondiente al permiso de acceso a la aplicacion, con esto podemos evitar muchos dolores de cabeza en apliaciones modernas.</p><p><img src="/personal-project/images/post/auth/gitlab-auth.png" alt="Autenticacion de Gitlab" title="Ejemplo de Autenticacion"></p><h3 id="Y-la-Estrategia-Local"><a href="#Y-la-Estrategia-Local" class="headerlink" title="Y la Estrategia Local?"></a>Y la Estrategia Local?</h3><p>Cuando hablo de una estrategia local me refiero al tipo ingrese usuario y contraseña de una pagina culquiera de la que tu conoces poca informacion. Ya creo que se esta entendiendo, no todas las personas confian en dar su informacion o otra pagina mas, es por ello que deben haber posibilidades de hacerlo con una de terceros.</p><h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>Para problemas modernos, soluciones modernas, la herramienta de JWT en una Cookie para Autorizar, un AuthV2 para autenticar es una manera muy practica y moderna que nos permite cubrir las dos necesidades referentes al control de permisos de un cliente de manera basica, si deseas leer como implemente estas estrategias en un lenguaje puedes ver <a href="https://gitlab.com/vmgabriel/daga-session" title="Link de implementacion de estrategias en un microservicio">Session Micro-Servicio</a>.</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="Seguridad-en-Apliaciones-Web-Moderna"><a href="#Seguridad-en-Apliaciones-Web-Moderna" class="headerlink" title="Seguridad en Apliaciones Web Moderna"></a>Seguridad en Apliaciones Web Moderna</h1><p>Uno de los mayores problemas que se enfrenta el desarrollador web durante el dia a dia es el uso de aplicaciones modernas y escalables es la seguridad en la web y es que para nadie es un secreto que los problemas que en general este enfrenta es variado.</p><p>Debido a ello es necesario explicar claramente como podemos enfrentar con todo lo que nos ofrece las arquitecturas modernas y las librerias para adaptarnos a las herramientas, siendo mas comenzemos.</p><h2 id="JWT-JSON-Web-Token"><a href="#JWT-JSON-Web-Token" class="headerlink" title="JWT - JSON Web Token"></a>JWT - JSON Web Token</h2><p>Una de las herramientas modernas que nos ofrecen hoy en dia para la autenticacion entre micro-servicios, y es que JWT es una herramienta imprescidible cuando lo que queremos es consumir de un stack de micro-servicios.</p><h3 id="Que-es-JWT"><a href="#Que-es-JWT" class="headerlink" title="Que es JWT?"></a>Que es JWT?</h3><p>Es una herramienta moderna para que podamos insertar algunos datos para que cuando tu te comunicas con um micro-servicios muestres tu JWT, es como un pasaporte de acceso que alguien porque te identificaste correctemante. Te dan este acceso cuando te autenticas, caso cuando por lo general ingresas usuario y contraseña, este en general te devuelve un jwt, los progamadores modernos los programadores lo guardan en cada uno de los navegadores de cada uno de los usuarios que ingresaron nuestra app, es por ello que cuando usamos esta podemos usarlo con nuestro y no el de otra persona, este JWT generalemente tiene lo siguiente dentro</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="title class_">JWTDeencripted</span> = &#123;</span><br><span class="line">  <span class="attr">exp</span>: <span class="number">123456</span>, </span><br><span class="line">  <span class="comment">// Una Fecha de Expiracion donde el usuario</span></span><br><span class="line">  <span class="comment">// debera pedir un nuevo pasaporte para disfrutar el servio</span></span><br><span class="line">  <span class="attr">userId</span>: <span class="string">&quot;xxxxxxxxxxxxxxxxxxxxxxxx&quot;</span>, <span class="comment">// Id de Usuario que lo identifica en el sistema</span></span><br><span class="line">  <span class="attr">permission</span>: [<span class="string">&quot;perm1-create&quot;</span>, <span class="string">&quot;perm2-update&quot;</span>, <span class="string">&quot;perm3-delete&quot;</span>],</span><br><span class="line">  <span class="comment">// Permisos de acceso del usuario(depende de como se haga la estrategia de autorizacion)</span></span><br><span class="line">  <span class="attr">roleId</span>: <span class="string">&quot;zzzzzzzzzzzzzzzz&quot;</span>, <span class="comment">// Id del rol, por si algun sevicio lo requiera</span></span><br><span class="line">  ... <span class="comment">// En general son estos datos, pero es posible ingresar mas como por ejemplo IP</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>Con este pasaporte el usuario puede crear, editar o eliminar si tiene autorizacion para hacerlo.<br>Para que sea seguro se encripta con una constraseña privada dejando como resultado algo similar a:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> <span class="variable constant_">JWT</span> = <span class="string">&#x27;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c&#x27;</span>;</span><br></pre></td></tr></table></figure><p>Podemos reconocer facilmente si es un JWT sabiendo que va a tener tres partes separadas por un punto.<br>Con esto lo unico que debemos hacer es verificar previamente cuando hacemos algun proceso si posee acesso o no, generalmente el acesso moderno se pone en una cookie segura que tenga HTTP-ONLY activado.</p><h3 id="Porque-En-Una-Cookie"><a href="#Porque-En-Una-Cookie" class="headerlink" title="Porque En Una Cookie?"></a>Porque En Una Cookie?</h3><p>Principalmente porque es horizontal para la aplicacion, sin embargo tambien tiene una ventaja adicional, se puede encriptar por segunda vez, entonces con ello tenemos una doble seguridad.</p><h3 id="Que-Diferencias-hay-entre-autorizar-y-autenticar"><a href="#Que-Diferencias-hay-entre-autorizar-y-autenticar" class="headerlink" title="Que Diferencias hay entre autorizar y autenticar?"></a>Que Diferencias hay entre autorizar y autenticar?</h3><p>Es simple, esto es debido a que cuando tu unicamente autenticasle das acceso total a todo lo que tiene tu aplicacion, pero, esto no es correcto, no quieres darle acceso de modificar el comportamiento de la aplicacion a un usuario comun, es debido a esto que cuadndo un usuario lanza una peticion HTTP a tus servicios el paso posterior es verificar si tiene permisos para realizar dicha accion. Es por esto que las estrategias de autorizacion varian entre aplicaciones y el de autenticacion es estandar.</p><img src="/images/post/auth/search.png" alt="Verificacion de Acceso por Key" style="width:200px;"/><h3 id="Hay-Ademas-Otras-Estrategias-para-Autenticar"><a href="#Hay-Ademas-Otras-Estrategias-para-Autenticar" class="headerlink" title="Hay Ademas Otras Estrategias para Autenticar?"></a>Hay Ademas Otras Estrategias para Autenticar?</h3><p>Para autenticar puedes usar las herramientas que da AuthV2 para conectarte con google, twitter, facebook, gitlab, entre muchas otras opciones.</p><h3 id="Que-es-AuthV2"><a href="#Que-es-AuthV2" class="headerlink" title="Que es AuthV2?"></a>Que es AuthV2?</h3><p><img src="/images/post/auth/authentication.png" alt="Acceso Por Usuario y Contraseña" title="Ingreso Por Usuario y Contraseña"></p><p>Es una estrategia de la que esperas que una aplicacion de terceros te de el acceso, nosotros normalmente vemos eso en aplicaciones que dice “Ingresa con Google o Amazon o …” tu ingresas con tu usuario y contraseña de la plataforma web de tu gusto y cuando le das permiso de acceso esta manda un token correspondiente al permiso de acceso a la aplicacion, con esto podemos evitar muchos dolores de cabeza en apliaciones modernas.</p><p><img src="/images/post/auth/gitlab-auth.png" alt="Autenticacion de Gitlab" title="Ejemplo de Autenticacion"></p><h3 id="Y-la-Estrategia-Local"><a href="#Y-la-Estrategia-Local" class="headerlink" title="Y la Estrategia Local?"></a>Y la Estrategia Local?</h3><p>Cuando hablo de una estrategia local me refiero al tipo ingrese usuario y contraseña de una pagina culquiera de la que tu conoces poca informacion. Ya creo que se esta entendiendo, no todas las personas confian en dar su informacion o otra pagina mas, es por ello que deben haber posibilidades de hacerlo con una de terceros.</p><h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>Para problemas modernos, soluciones modernas, la herramienta de JWT en una Cookie para Autorizar, un AuthV2 para autenticar es una manera muy practica y moderna que nos permite cubrir las dos necesidades referentes al control de permisos de un cliente de manera basica, si deseas leer como implemente estas estrategias en un lenguaje puedes ver <a href="https://gitlab.com/vmgabriel/daga-session" title="Link de implementacion de estrategias en un microservicio">Session Micro-Servicio</a>.</p>]]></content>
     
     
     <summary type="html">Cuando nos preocupamos en la seguridad de una pagina web moderna tenemos que tener en cuenta una cuentas como manejaremos las herramientas. Dentro de un micro-servicio describire como se manejaria este problema tipico en cualquier pagina web moderna y una aplicacion en general.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/post/auth.png" type="image"/>
+    <content src="https://vmgabriel.com/images/post/auth.png" type="image"/>
     
     
-    <category term="Diseño Web" scheme="https://vmgabriel.github.io/categories/Diseno-Web/"/>
+    <category term="Diseño Web" scheme="https://vmgabriel.com/categories/Diseno-Web/"/>
     
-    <category term="Arquitectura Hexagonal" scheme="https://vmgabriel.github.io/categories/Diseno-Web/Arquitectura-Hexagonal/"/>
+    <category term="Arquitectura Hexagonal" scheme="https://vmgabriel.com/categories/Diseno-Web/Arquitectura-Hexagonal/"/>
     
-    <category term="Micro-Servicios" scheme="https://vmgabriel.github.io/categories/Diseno-Web/Arquitectura-Hexagonal/Micro-Servicios/"/>
+    <category term="Micro-Servicios" scheme="https://vmgabriel.com/categories/Diseno-Web/Arquitectura-Hexagonal/Micro-Servicios/"/>
     
     
-    <category term="javascript" scheme="https://vmgabriel.github.io/tags/javascript/"/>
+    <category term="javascript" scheme="https://vmgabriel.com/tags/javascript/"/>
     
-    <category term="passport" scheme="https://vmgabriel.github.io/tags/passport/"/>
+    <category term="passport" scheme="https://vmgabriel.com/tags/passport/"/>
     
-    <category term="jwt" scheme="https://vmgabriel.github.io/tags/jwt/"/>
+    <category term="jwt" scheme="https://vmgabriel.com/tags/jwt/"/>
     
-    <category term="cookie" scheme="https://vmgabriel.github.io/tags/cookie/"/>
+    <category term="cookie" scheme="https://vmgabriel.com/tags/cookie/"/>
     
   </entry>
   
   <entry>
     <title>Investigacion Arduino en Ambientes Teoricos</title>
-    <link href="https://vmgabriel.github.io/2020/04/19/arduino-y-archlinux/"/>
-    <id>https://vmgabriel.github.io/2020/04/19/arduino-y-archlinux/</id>
+    <link href="https://vmgabriel.com/2020/04/19/arduino-y-archlinux/"/>
+    <id>https://vmgabriel.com/2020/04/19/arduino-y-archlinux/</id>
     <published>2020-04-19T13:59:10.000Z</published>
     <updated>2020-04-19T13:59:10.000Z</updated>
     
@@ -122,26 +122,26 @@
     <summary type="html">El uso de archlinux como distribucion kernel linux favorita en entornos de desarrollo genera ciertas ventajas y desventajas, una de las posibles mejoras que puede tener archlinux es el trabajo como el circuito libre arduino para proyecto de IOT, explico como es su funcionamiento y como abordar el problema que tiene archlinux como la compatibilidad con arduino.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/post/arduino.png" type="image"/>
+    <content src="https://vmgabriel.com/images/post/arduino.png" type="image"/>
     
     
-    <category term="iot" scheme="https://vmgabriel.github.io/categories/iot/"/>
+    <category term="iot" scheme="https://vmgabriel.com/categories/iot/"/>
     
-    <category term="linux" scheme="https://vmgabriel.github.io/categories/iot/linux/"/>
+    <category term="linux" scheme="https://vmgabriel.com/categories/iot/linux/"/>
     
     
-    <category term="arduino" scheme="https://vmgabriel.github.io/tags/arduino/"/>
+    <category term="arduino" scheme="https://vmgabriel.com/tags/arduino/"/>
     
-    <category term="archlinux" scheme="https://vmgabriel.github.io/tags/archlinux/"/>
+    <category term="archlinux" scheme="https://vmgabriel.com/tags/archlinux/"/>
     
-    <category term="linux" scheme="https://vmgabriel.github.io/tags/linux/"/>
+    <category term="linux" scheme="https://vmgabriel.com/tags/linux/"/>
     
   </entry>
   
   <entry>
     <title>Proyecto Logos de Hexo</title>
-    <link href="https://vmgabriel.github.io/2020/04/19/proyecto-hexo/"/>
-    <id>https://vmgabriel.github.io/2020/04/19/proyecto-hexo/</id>
+    <link href="https://vmgabriel.com/2020/04/19/proyecto-hexo/"/>
+    <id>https://vmgabriel.com/2020/04/19/proyecto-hexo/</id>
     <published>2020-04-19T13:59:10.000Z</published>
     <updated>2020-04-19T13:59:10.000Z</updated>
     
@@ -151,28 +151,28 @@
     <summary type="html">El proyecto logos es sin duda uno de los mas interesantes proyectos internos que tengo, mi objetivo es que sea la forma de dar abiertamente mis conocimientos a personas dispuestas en ponerlo en evidencia, sea generando un sano debate, como tambien apoyando los conceptos.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/projects/hexo.png" type="image"/>
+    <content src="https://vmgabriel.com/images/projects/hexo.png" type="image"/>
     
     
-    <category term="Diseño Web" scheme="https://vmgabriel.github.io/categories/Diseno-Web/"/>
+    <category term="Diseño Web" scheme="https://vmgabriel.com/categories/Diseno-Web/"/>
     
-    <category term="Desarrollo" scheme="https://vmgabriel.github.io/categories/Diseno-Web/Desarrollo/"/>
+    <category term="Desarrollo" scheme="https://vmgabriel.com/categories/Diseno-Web/Desarrollo/"/>
     
     
-    <category term="hexo" scheme="https://vmgabriel.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://vmgabriel.com/tags/hexo/"/>
     
-    <category term="blog" scheme="https://vmgabriel.github.io/tags/blog/"/>
+    <category term="blog" scheme="https://vmgabriel.com/tags/blog/"/>
     
-    <category term="javascript" scheme="https://vmgabriel.github.io/tags/javascript/"/>
+    <category term="javascript" scheme="https://vmgabriel.com/tags/javascript/"/>
     
-    <category term="pug" scheme="https://vmgabriel.github.io/tags/pug/"/>
+    <category term="pug" scheme="https://vmgabriel.com/tags/pug/"/>
     
   </entry>
   
   <entry>
     <title>Bienvenida a Blog Logos de Gabriel</title>
-    <link href="https://vmgabriel.github.io/2020/04/17/bienvenida/"/>
-    <id>https://vmgabriel.github.io/2020/04/17/bienvenida/</id>
+    <link href="https://vmgabriel.com/2020/04/17/bienvenida/"/>
+    <id>https://vmgabriel.com/2020/04/17/bienvenida/</id>
     <published>2020-04-17T13:59:10.000Z</published>
     <updated>2020-04-17T13:59:10.000Z</updated>
     
@@ -182,13 +182,13 @@
     <summary type="html">Aqui hago explico mis planes a futuro con el blog y doy una fuerte bienvenida a mis lectores.</summary>
     
     
-    <content src="https://vmgabriel.github.io/images/post/bienvenida.png" type="image"/>
+    <content src="https://vmgabriel.com/images/post/bienvenida.png" type="image"/>
     
     
-    <category term="blog personal" scheme="https://vmgabriel.github.io/categories/blog-personal/"/>
+    <category term="blog personal" scheme="https://vmgabriel.com/categories/blog-personal/"/>
     
     
-    <category term="hexo" scheme="https://vmgabriel.github.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://vmgabriel.com/tags/hexo/"/>
     
   </entry>
   
