@@ -10,10 +10,10 @@ html
     title=config.title
     if theme.favicon
       link(rel="shortcut icon", href=theme.favicon, type="image/x-icon")
-    link(href='/css/all.min.css', rel='stylesheet')
-    link(href='/css/hightlight.css', rel='stylesheet')
-    link(href='/styles/site.css', rel="stylesheet")
-    link(href='/styles/loading-bar.min.css', rel="stylesheet")
+    != css("css/all.min.css")
+    != css("css/hightlight.css")
+    != css("styles/site.css")
+    != css("styles/loading-bar.min.css")
     link(rel='search', type='application/opensearchdescription+xml', href=url_for('atom.xml'), title=config.title)
 
     block css
