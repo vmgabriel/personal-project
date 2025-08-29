@@ -1,0 +1,81 @@
+@use './config' as *;
+
+.block-send-email {
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: "ubuntu";
+
+    .title {
+        text-align: center;
+    }
+
+    .email {
+        margin-top: 0.4em;
+        font-size: 19px;
+        font-weight: 700;
+    }
+
+    .send-email {
+        background-color: $color-content-white;
+        color: $color-background-header-white;
+        font-size: 14px;
+
+        border: 0;
+        padding: 1em;
+        text-transform: capitalize;
+
+        body.dark & {
+            background-color: $color-content-black;
+            color: $color-background-header-black;
+        }
+
+        &:hover {
+            background-color: $color-header-a-strong;
+            color: $color-button-select;
+
+            body.dark & {
+                background-color: $color-header-a-strong-black;
+                color: $color-button-select-black;
+            }
+        }
+    }
+
+    .alerts {
+        .alert-content {
+            margin-top: 1em;
+            padding: 1em;
+            background-color: $color-red-white;
+            border: 0.8em solid $color-red-strong-white;
+
+            border-top: 0;
+            border-bottom: 0;
+            border-right: 0;
+
+            body.dark & {
+                background-color: $color-red-black;
+                border: 0.8em solid $color-red-strong-black;
+            }
+
+            h1 {
+                font-size: 18px;
+                margin: 0;
+                color: $color-red-strong-white;
+
+                body.dark & {
+                    color: $color-red-strong-black;
+                }
+            }
+
+            p {
+                margin: 0;
+                margin-top: 0.5em;
+                font-size: 14px;
+                color: $color-red-content-white;
+
+                body.dark & {
+                    color: $color-red-content-black;
+                }
+            }
+        }
+    }
+}

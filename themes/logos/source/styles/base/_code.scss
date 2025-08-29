@@ -1,0 +1,108 @@
+@use './_config' as *;
+
+.highlight {
+    font-family: "Meslo LG";
+    font-size: 11px;
+    line-height: 1.3;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+
+    border-radius: 8px;
+    margin-left: 1.3em;
+    margin-right: 0.5em;
+
+    background-color: $color-background-header-white;
+    //color: white;
+    overflow: auto;
+
+    body.dark & {
+        background-color: $color-background-header-black;
+    }
+
+    table {
+        border: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: auto;
+        text-align: initial;
+
+        tbody {
+            tr:nth-child(2n) {
+                background-color: $color-background-header-white;
+
+                body.dark & {
+                    background-color: $color-background-header-black;
+                }
+            }
+
+            tr:nth-child(2n+1) {
+                background-color: $color-background-header-white;
+
+                body.dark & {
+                    background-color: $color-background-header-black;
+                }
+            }
+        }
+    }
+}
+
+.gutter {
+    background-color: $color-code-countline-white;
+    color: $color-background-article;
+
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+
+    border: 1px solid $color-header-a-strong;
+    border-left: 0;
+    border-bottom: 0;
+    border-top: 0;
+
+    border-radius: 8px 0 0 8px;
+
+    body.dark & {
+        background-color: $color-code-countline-black;
+        color: $color-background-article-black;
+        // border: 1px solid $color-header-a-strong-black;
+    }
+
+    pre,
+    span {
+        background-color: $color-code-countline-white;
+        color: $color-header-a-weak;
+
+        body.dark & {
+            background-color: $color-code-countline-black;
+            color: $color-header-a-weak-black;
+        }
+    }
+}
+
+.code {
+    pre {
+        background-color: $color-background-header-white;
+        color: $color-content-white;
+
+        body.dark & {
+            background-color: $color-background-header-black;
+            color: $color-content-black;
+        }
+    }
+}
+
+pre {
+    .code {
+        background-color: $color-background-header-white;
+        color: $color-content-white;
+
+        background-color: $color-background-header-black;
+        color: $color-content-black;
+    }
+}
+
+.code {
+    .title {
+        font-size: inherit;
+        color: inherit;
+    }
+}

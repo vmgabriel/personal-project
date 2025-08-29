@@ -1,0 +1,16 @@
+extends ../_partial/layout
+
+block content
+  .block-send-email
+    h2.title Contactar Correo Electronico
+    form
+      label(for='ofData') De(Correo Electronico de Contacto):
+      input#ofData(type="text" name="ofData")
+      label(for='subjectData') Asunto:
+      input#subjectData(type="text" name="subjectData")
+      label(for='bodyData') Mensaje:
+      textarea#bodyData(type="text" name="bodyData")
+      .alerts#alerts.hide-block
+      .content-buttons
+        a.send-email#send(onClick="sendMail()")
+          | send email

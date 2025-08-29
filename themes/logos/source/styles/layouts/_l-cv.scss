@@ -1,0 +1,166 @@
+@use '../base/_code' as *;
+@use '../base/config';
+
+.cv-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "ubuntu";
+    color: config.$color-header-a-strong-select;
+
+    body.dark & {
+        color: config.$color-letter-black;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+
+    .charge,
+    .personal-data {
+        display: flex;
+        color: config.$color-content-white;
+
+        body.dark & {
+            color: config.$color-header-a-weak-black;
+        }
+
+        li {
+            margin-left: 0.5em;
+            margin-right: 0.5em;
+        }
+    }
+
+    .block-content {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 3em;
+
+        width: -moz-available;
+        width: -webkit-fill-available;
+
+        h2 {
+            color: config.$color-content-black;
+
+            body.dark & {
+                color: config.$color-header-a-strong-black;
+            }
+        }
+
+        &:nth-child(2n+1) {
+            background-color: config.$color-background-white;
+
+            body.dark & {
+                background-color: config.$color-background-black;
+            }
+
+
+        }
+
+        &:nth-child(2n) {
+            background-color: config.$color-background-header-white;
+
+            .card-skill {
+                background-color: config.$color-background-white;
+            }
+
+            body.dark & {
+                background-color: config.$color-background-header-black;
+
+                .card-skill {
+                    background-color: config.$color-background-black;
+                }
+            }
+        }
+
+        ul {
+            list-style-type: disc;
+
+            li {
+                margin-bottom: 0.5em;
+            }
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: start;
+        }
+
+        .card-skill {
+            flex-basis: 20vw;
+            display: flex;
+            flex-direction: column;
+
+            width: -moz-available;
+            width: -webkit-fill-available;
+            min-width: 200px;
+
+            text-align: center;
+            border-radius: 20px;
+
+            margin-left: 0.8em;
+            margin-right: 0.8em;
+            margin-bottom: 2em;
+
+            background-color: config.$color-background-header-white;
+            color: config.$color-content-white;
+
+            body.dark & {
+                background-color: config.$color-background-header-black;
+                color: config.$color-header-a-weak-black;
+            }
+
+
+            .ldBar.auto.label-center {
+                svg {
+                    padding: unset;
+                }
+
+                .ldBar-label::after {
+                    content: "%";
+                }
+            }
+        }
+    }
+
+    .section-content {
+        margin-left: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        padding-left: 1em;
+        border: 10px solid black;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+
+        &:nth-child(2n+1) {
+            border-color: config.$color-circle-avatar-black;
+
+            body.dark & {
+                border-color: config.$color-header-a-strong-select-black;
+            }
+        }
+
+        &:nth-child(2n) {
+            border-color: config.$color-border-white;
+
+            body.dark & {
+                border-color: config.$color-content-black;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .cv-block .block-content .card-skill {
+        width: -moz-available;
+        min-width: -moz-available;
+        max-width: -moz-available;
+        width: -webkit-fill-available;
+        min-width: -webkit-fill-available;
+        max-width: -webkit-fill-available;
+    }
+}

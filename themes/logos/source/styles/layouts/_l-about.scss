@@ -1,0 +1,57 @@
+@use '../base/_code' as *;
+@use '../base/config';
+
+.about {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+
+    font-family: 'ubuntu';
+    text-align: justify;
+
+    .img-personal {
+        margin: 0 auto;
+        margin-top: 1em;
+
+        img {
+            max-width: 160px;
+            border: 1px solid config.$color-border-white;
+            border-radius: 10px;
+
+            body.dark & {
+                border: 1px solid config.$color-border-black;
+            }
+        }
+    }
+
+    .description {
+        background-color: config.$color-background-description-about;
+        margin-top: 1em;
+        padding: 1em;
+        border-radius: 10px;
+
+        body.dark & {
+            background-color: config.$color-background-description-about-black;
+        }
+
+        p {
+            margin-top: .5em;
+            margin-bottom: 0;
+        }
+    }
+}
+
+.phrase {
+    font-family: "montserrat";
+    text-align: center;
+
+    margin: 0;
+
+    h1 {
+        margin: 0;
+        text-transform: capitalize;
+    }
+}

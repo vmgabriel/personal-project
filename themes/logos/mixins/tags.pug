@@ -1,0 +1,3 @@
+mixin tags(title, count)
+  .tag-cloud
+    .tag-cloud-tags!= tagcloud({min_font: 14, max_font: 60, amount: count, color: true, start_color: '#82b5ae', end_color: '#001b16'})

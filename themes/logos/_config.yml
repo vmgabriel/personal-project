@@ -1,0 +1,61 @@
+# Header
+menu:
+  home: /archives
+rss: /atom.xml
+title: Logos de Gabriel
+
+author: Gabriel Vargas Monroy
+aboutme: Ingeniero de Sistemas, apasinado por el mundo de la tecnologia, con ganas de construirse como persona dia a dia.
+
+# Content
+excerpt_link: Leer Mas
+fancybox: true
+date_format: "DD/MM/YYYY"
+
+socials:
+  github: "https://github.com/vmgabriel"
+  email: "vmgabriel96@gmail.com"
+  twitter: "https://twitter.com/vmgabu"
+  google_plus: ""
+  linkedin: "https://www.linkedin.com/in/vmgabriel/"
+  gitlab: "https://gitlab.com/vmgabriel"
+
+# Sidebar
+# sidebar: right
+widgets:
+  - category
+# - tag
+# - archive
+# - recent_posts
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+  - category
+# - tagcloud
+# - archiver
+
+# widget behavior
+archive_type: "monthly"
+show_count: false
+
+disqus_shortname: vmgabriel
+
+# Miscellaneous
+favicon: /images/icon.png
+image_post_default: /images/default-post.png
+avatar: "/images/avatar.png"
+
+google_analytics: "UA-61220413-1"
+gauges_analytics:
+fb_admins:
+fb_app_id:
+
+# Lazyloading
+lazyload:
+  enable: true
+
+# Math Options
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML

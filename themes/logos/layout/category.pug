@@ -1,0 +1,26 @@
+extends ../_partial/layout
+
+block content
+  if is_page()
+    .container.categories-page
+      .title-content
+        h1 Lista de Categorias
+        h3 Cantidad de Categorias: #{site.categories.length}
+
+        .categories-all!= list_categories(site.categories)
+
+  else
+    .container.tag
+      .title-content
+        h1= page.category
+        .container.archive
+          - const order = (a) => (c) => (b) => b.sort((x,y) => (a == 'asc') ? x[c]-y[c] : y[c]-x[c] );
+          each post in order('desc')('date')(page.posts.data)
+            .post-archive
+              //- a(href=url_for(post.path))
+              .post-archive__content
+                .post-archive__month= time(post.date, 'MMMM')
+              .post-archive__body
+                a.post-archive__title(href=url_for(post.path))= post.title
+                .post-archive__excerpt
+                  .post-archive__excerpt-content!= post.description

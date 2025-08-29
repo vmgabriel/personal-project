@@ -1,0 +1,41 @@
+header#header
+  .logo
+    .content-logo#contentLogo
+      img(alt='logo' src=theme.avatar)
+      a.texto(href="/")= config.title
+  .links#links
+      ul
+        li
+          a#a-header(href="/") Inicio
+        li
+          a#a-header(href="/portfolio") Portafolio
+        li
+          a#a-header(href="/about") Acerca de Mi
+        li
+          a#a-header(href="/tags") Etiquetas
+        li
+          a#a-header(href="/archives") Archivos
+        li
+          a#a-header(href="/categories") Categorias
+
+div.nav-icon#navIcons
+  i.iconStyle.fas.fa-moon#iconStyle(onClick="changeStyleDark()")
+  i.menu.fas.fa-bars#menuNav(onClick="menuNav()")
+
+div.presentation#presentation
+  a.background-img(href="/")
+    img(alt='Imagen Logo' src=theme.avatar)
+  p Gabriel Vargas Monroy
+  div.contacts#contacts
+    a.circle(href=url_for(theme.socials.linkedin))
+      i.fab.fa-linkedin
+    a.circle(href=url_for(theme.socials.github))
+      i.fab.fa-github
+    a.circle(href=url_for(theme.socials.gitlab))
+      i.fab.fa-gitlab
+    a.circle(href=url_for('/send-mail'))
+      i.fas.fa-at
+    a.circle(href=url_for(theme.socials.twitter))
+      i.fab.fa-twitter
+    a.circle(href=url_for(theme.rss))
+      i.fas.fa-rss

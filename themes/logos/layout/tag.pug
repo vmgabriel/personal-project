@@ -1,0 +1,28 @@
+extends ../_partial/layout
+
+block content
+  if is_page()
+    .container.tag
+      .title-content
+        h1 Lista de Etiquetas
+        h3 Cantidad de Etiquetas: #{site.tags.length}
+
+      include ../mixins/tags.pug
+      +tags('TAGS', site.tags.length)
+
+  else
+    .container.tag
+      .title-content
+        h1= page.tag
+        .container.archive
+          - const order = (a) => (c) => (b) => b.sort((x,y) => (a == 'asc') ? x[c]-y[c] : y[c]-x[c] );
+          each post in order('desc')('date')(page.posts.data)
+            .post-archive
+              //- a(href=url_for(post.path))
+              .post-archive__content
+                .post-archive__month= time(post.date, 'MMMM')
+              .post-archive__body
+                a.post-archive__title(href=url_for(post.path))= post.title
+                .post-archive__excerpt
+                  .post-archive__excerpt-content!= post.description
+

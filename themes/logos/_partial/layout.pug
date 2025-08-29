@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    meta(name="description", content=config.description)
+    meta(name="keyword", content=config.keyword)
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+    title=config.title
+    if theme.favicon
+      link(rel="shortcut icon", href=theme.favicon, type="image/x-icon")
+    link(href='/css/all.min.css', rel='stylesheet')
+    link(href='/css/hightlight.css', rel='stylesheet')
+    link(href='/styles/site.css', rel="stylesheet")
+    link(href='/styles/loading-bar.min.css', rel="stylesheet")
+    link(rel='search', type='application/opensearchdescription+xml', href=url_for('atom.xml'), title=config.title)
+
+    block css
+
+    block head
+
+  //- HTML BODY
+  body#body
+    //- HEADER
+    include ./header.pug
+
+    //- CONTENT
+    block content
+
+    .buttonTop#backToTop
+        i.fas.fa-chevron-circle-up
+
+    //- FOOTER
+    include ./footer.pug
+    include ./dialog.pug
+
+    include ./post_footer.pug
+    include ./google-analytics.pug
+    block js

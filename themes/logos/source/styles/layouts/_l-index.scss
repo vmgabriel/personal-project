@@ -1,0 +1,92 @@
+@use '../base/_config' as *;
+
+.archive {
+    font-family: "ubuntu";
+    display: flex;
+
+    .year-wrap {
+        font-size: 24px;
+        line-height: 1;
+        letter-spacing: 0.035em;
+        font-weight: 700;
+
+        a {
+            color: $color-header-a-strong-select;
+
+            body.dark & {
+                color: $color-header-a-strong-select-black;
+            }
+        }
+    }
+
+    .archives {
+        display: flex;
+        margin-top: 0.4em;
+        max-width: 1200px;
+        flex-wrap: wrap;
+    }
+
+    .post-archive {
+        margin: 0.5em;
+        padding: 0.5em;
+        max-width: 300px;
+
+        background-color: $color-background-article;
+        box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.51), 0 0 0 1px rgba(10, 10, 10, 0.02);
+
+        body.dark & {
+            background-color: $color-background-article-black;
+        }
+
+        .post-archive__content {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+        }
+
+        .post-archive__month {
+            text-transform: capitalize;
+            font-size: 12px;
+            font-weight: 200;
+        }
+
+        .post-archive__body {
+            margin-top: 1em;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .post-archive__title {
+            color: $color-header-a-strong;
+            margin-bottom: 0.7em;
+            font-weight: 900;
+            font-size: 17px;
+
+            body.dark & {
+                color: $color-header-a-strong-black;
+            }
+        }
+
+        .post-archive__excerpt-content {
+            font-size: 14px;
+            font-weight: 200;
+        }
+    }
+}
+
+@media only screen and (max-width: 995px) {
+    .archive {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
+
+@media only screen and (max-width: 728px) {
+    .archive {
+        max-width: 100vw;
+
+        .post-archive {
+            max-width: 100vw;
+        }
+    }
+}

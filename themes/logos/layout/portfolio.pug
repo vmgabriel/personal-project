@@ -1,0 +1,35 @@
+extends ../_partial/layout
+
+block content
+  h3.title Portafolio
+  - const isTypePost = (type) => (e) => !!e.content_data && e.content_data == type;
+  - const order = (a) => (c) => (b) => b.sort((x,y) => (a == 'asc') ? x[c]-y[c] : y[c]-x[c] );
+  - const projects = site.posts.data.filter(isTypePost('projects'));
+  .container.home
+    each post in order('desc')('date')(projects)
+      section.article
+        if post.image
+          div.imagePost
+            a
+              img(src=(post.image) alt= (post.altImage))
+        else
+          div.imagePost
+            a
+              img(src=(theme.image_post_default) alt= (post.altImage))
+
+        a(href=url_for(post.path)).title= post.title || 'Sin Nombre'
+        span.date
+            p.date #{moment(post.date).format(theme.date_format)}
+
+        div.content.excerpt!= post.excerpt || post.description
+
+        .themes
+          if post.categories
+              .categories!= list_categories(post.categories, { show_count: false, class: 'category', style: false, separator: '' })
+
+          if post.tags
+            .tags!= list_tags(post.tags, { show_count: false, class: 'tag', style: false, separator: '' })
+
+        div.article-footer
+          a.excerpt-link(href=url_for(post.path))= theme.excerpt_link
+          .article-footer__right
