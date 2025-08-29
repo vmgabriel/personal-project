@@ -6,17 +6,17 @@ header#header
   .links#links
       ul
         li
-          a#a-header(href="/") Inicio
+          a#a-header(href!=url_for("/")) Inicio
         li
-          a#a-header(href="/portfolio") Portafolio
+          a#a-header(href!=url_for("/portfolio")) Portafolio
         li
-          a#a-header(href="/about") Acerca de Mi
+          a#a-header(href!=url_for("/about")) Acerca de Mi
         li
-          a#a-header(href="/tags") Etiquetas
+          a#a-header(href!=url_for("/tags")) Etiquetas
         li
-          a#a-header(href="/archives") Archivos
+          a#a-header(href!=url_for("/archives")) Archivos
         li
-          a#a-header(href="/categories") Categorias
+          a#a-header(href!=url_for("/categories")) Categorias
 
 div.nav-icon#navIcons
   i.iconStyle.fas.fa-moon#iconStyle(onClick="changeStyleDark()")
