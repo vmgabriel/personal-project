@@ -29,6 +29,6 @@
     "hexo-server": "^3.0.0",
     "hexo-tag-cloud": "^1.0.1",
     "hexo-theme-landscape": "^1.0.0",
-    "sass": "^1.91.0"
+    "sass": "^1.93.1"
   }
 }
